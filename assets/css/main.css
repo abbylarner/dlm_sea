@@ -157,25 +157,49 @@ a:after {
 	letter-spacing: 1px;
 }
 
+#alert {
+    background-color: #ff4374;
+    text-align: center;
+    top: 8.1rem;
+    padding: 1rem 0;
+    border-bottom: none;
+    
+}
+
+#alert p {
+    color: #fff;
+    margin-bottom: 0;
+    display: inline-block;
+    
+}
+
 /* WRAP SECTIONS */
 
 /* sponsors */
 
 #sponsors {
-    padding: 1rem 0;
+    padding: 2rem 0;
     background: #664fc9;
     text-align: center;
 }
 
-#adobe {
-    width: 50%;
+#adobe, #aiga {
+    width: 100%;
     opacity: 0.65;
+}
+
+#adobe {
     max-width: 125px;
+}
+
+#aiga {
+    max-width: 300px;
 }
 
 /* hello */
 #hello {
 	width: 100%;
+    margin-top: 12.1rem;
 }
 
 #hello img {
@@ -198,6 +222,7 @@ a:after {
 
 #pg-title {
     padding: 10rem 0;
+    margin-top: 12.1rem;
 }
 
 #pg-title h2 {
@@ -301,7 +326,7 @@ a:after {
 	margin-bottom: 0px;
 }
 
-#green h3 {
+#green h3, #applications h3, #sponsors h3 {
 	color: #202020;
 	font-weight: 400;
 	margin-bottom: 35px;
@@ -311,6 +336,15 @@ a:after {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#sponsors h3 {
+    margin-bottom: .5rem;
+    margin-top: 0;
+}
+
+#applications h3 {
+    text-align: center;
 }
 
 #green p {
@@ -339,7 +373,11 @@ a:after {
 }
 
 .sponsors img {
-    max-width: 150px;
+    width: 100%;
+}
+
+#adobe-sponsor {
+        max-width: 150px;
 }
 
 /* Skills */
