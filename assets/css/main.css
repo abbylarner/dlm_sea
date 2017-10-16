@@ -577,6 +577,14 @@ a:after {
     height: 93px;
 }
 
+.silver-sponsors img {
+    width: 125px;
+}
+
+.silver-sponsors h3 {
+    margin-top: 6rem;
+}
+
 
 @media (min-width: 992px){
     
@@ -607,6 +615,11 @@ a:after {
     text-align: left;
     
 } 
+    
+#aiga-logo {
+    margin-top: 40px;
+}
+
     
     
     
