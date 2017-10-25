@@ -166,6 +166,11 @@ a:after {
     
 }
 
+#alert a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 #alert p {
     color: #fff;
     margin-bottom: 0;
@@ -623,4 +628,28 @@ a:after {
     
     
     
+}
+
+.teams {
+    margin-top: 3rem;
+}
+
+.teams h3{
+    font-size: 24px;
+    color: #202020;
+	font-weight: 400;
+	margin-bottom: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.teams ul {
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.teams ul:last-child {
+    
+    border-bottom: none;
 }
