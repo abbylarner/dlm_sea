@@ -168,7 +168,17 @@ a:after {
 
 #alert a {
     color: #fff;
-    text-decoration: underline;
+    text-decoration: none;
+    border: 1px solid #fff;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+}
+
+#alert a:first-child {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 #alert p {
@@ -209,6 +219,7 @@ a:after {
 
 #hello img {
     width: 100%;
+    margin-top: 6rem;
 }
 
 #hello h1 {
@@ -625,7 +636,13 @@ a:after {
     margin-top: 40px;
 }
 
+    #alert a:first-child {
+        margin-top: 0;
+    }
     
+    #hello img {
+        margin-top: 0;
+    }
     
     
 }
